@@ -5,11 +5,11 @@ Say you have a github project and you want to host it on netlify. I’ am just k
 2.  Go to github and copy the name of the repository. Let’s assume the repository name is ‘my-first-project’
 3.  Create a new file in root directory of your project and name it ‘vue.config.js’. Why this name? Check out here why.
 In ‘vue.config.js’ file paste the following code:
-`
-// vue.config.js
-module.exports = {
-publicPath: ‘/my-first-project/’
-}`
+`  
+// vue.config.js  
+module.exports = {  
+publicPath: ‘/my-first-project/’  
+}`  
 4.  Find and open the file .gitignore located in root directory of your project.Next, find and comment the line which has the text ‘/dist’.
 NOTE: this folder it’s ignored by default that’s why we have to comment it.
 5.Run npm run build, and wait for it to finish.
