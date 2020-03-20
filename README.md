@@ -14,9 +14,10 @@ NOTE: this folder it’s ignored by default that’s why we have to comment it.
 5.Run npm run build, and wait for it to finish.
 IMPORTANT!! Before you run the next command make sure you don’t commit the .gitignore and vue.config.js.
 6.Run the command: git add dist && git commit -m "Initial dist subtree commit"
+
 7.Run the command: git subtree push --prefix dist origin gh-pages
+
 8.Navigate to github on your browser and open your repository. Next click ‘Settings’ just like it is displayed below.
 
 9. Scroll and find the section GitHub Pages. Select the ‘gh-pages’ branch and click Save.
-
 10. You might have to wait a while, but if everything goes well you will see the following alert message. Generally you have to wait 8–10 minutes until this process is done
